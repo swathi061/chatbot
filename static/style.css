@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+html,body {
+    background-color: #deebdd;
+    background-image: linear-gradient(315deg, #79C7C5 0%, #bbdbbe 74%);
+font-family: 'Lato',sans-serif;
+background-position: center;
+background-size: cover;
+height: 100%;
+}
+h1 {
+    color: #42848a;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+    height: 100%;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 85%;
+    border: none;
+    background-color: rgba(0,0,0,0.1);
+    outline: none;
+    border-bottom: 3px solid #206a5d;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+#buttonInput {
+    padding: 3px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    background-color:#206a5d;   
+}
+
+.userText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.userText span {
+    background-color: #79C7C5;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.botText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.botText span {
+    background: #777777;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+#tidbit {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 300px;
+}
